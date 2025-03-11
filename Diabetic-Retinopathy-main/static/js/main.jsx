@@ -255,14 +255,13 @@ class CustomNavBar extends React.Component {
     }
 }
 
-// Create a function to wrap up your component
 function App() {
     return (
 
 
         <Router>
             <div className="App">
-                {/* <CustomNavBar/> */}
+                
                 <div>
                     <main role="main" className="container">
                         <Route exact path="/" component={MainPage}/>
@@ -283,7 +282,6 @@ function App() {
 
     window.APP_CONFIG = body;
 
-    // Use the ReactDOM.render to show your component on the browser
     ReactDOM.render(
         <App/>,
         rootElement
